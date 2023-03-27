@@ -6,7 +6,7 @@
 //2. It shuould be closed with / Eg: <MyButton />
 
 // Ques. Why do we wrap JSX code in div or empty fragmanet?
-// Component coon't be run with multiple JSX Tages.
+// Component can't be run with multiple JSX Tags.
 
 // We use className attribute to style element as per class, same lie we use class in HTML
 
