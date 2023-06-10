@@ -1,5 +1,7 @@
 import "./App.css";
-import UserForm from "./components/UserForm";
+import searchData from "./data/Data.jsx";
+import SearchBar from "./components/component/SearchBar";
+// import UserForm from "./components/UserForm";
 
 function App() {
   return (
@@ -13,7 +15,8 @@ function App() {
       <CounterTwo /> */}
 
       {/* example 3 */}
-      <UserForm />
+      {/* <UserForm /> */}
+      <SearchBar placeholder={"Enter a book name"} data={searchData} />
     </div>
   );
 }
